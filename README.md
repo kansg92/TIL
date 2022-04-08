@@ -18,9 +18,8 @@
 
 ### 멀티캠퍼스 AI플랫폼을 활용한 웹서비스 개발
 
-<<<<<<<< HEAD:READEME.md
-
 - [day01\_\_Java 기초](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day01__Java.md)
 - [day02\_\_Java 변수](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day02__java%20variable.md)
 - [day03\_\_Java String](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day03__Java%20String%20%26%20system.md)
 - [day04\_\_GIT 특강1](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day04__GIT.md)
+- [day04\_\_GIT 특강2](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day04__GIT2.md)
