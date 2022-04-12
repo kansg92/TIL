@@ -24,3 +24,4 @@
 - [day04\_\_GIT 특강1](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day04__GIT.md)
 - [day05\_\_GIT 특강2](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day05__GIT2.md)
 - [day06\_\_Java 제어문](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day06__%20Control%20Statement.md)
+- [day07\_\_Java 참조타입](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day07__Java-reference-type.md)
