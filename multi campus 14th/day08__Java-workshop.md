@@ -1,12 +1,10 @@
-# 📢day08__Java workshop
+# 📢day08\_\_Java workshop
 
 ## Guess number game
 
-
-
 ```java
 public static void main(String[] args) {
-	// Number Guess Game 
+	// Number Guess Game
 	// 1 ~ 99 랜덤숫자중 한개의 숫자를 받든다.
 	// 숫자를 입력하고 해당 숫자보다 낮으면 down, 높으면 up
 	// 10회 이상 입력하면 Game over. 다시 도전 하세요.
@@ -15,19 +13,19 @@ public static void main(String[] args) {
 	Random ran = new Random();
 	int randnum = 0;
 	System.out.println("Game start..");
-	String stdIn = "";	
-	while (true) {	
+	String stdIn = "";
+	while (true) {
 		//예외 상황 입력시 반복.
 		try {
-					
+
 			randnum = ran.nextInt(99)+1;
 			// 리 게임 시 카운트 초기화.
 			int count = 0;
-			for(int i = 0; i <= 10; i++ ) {				
+			for(int i = 0; i <= 10; i++ ) {
 				System.out.print("Guess number(1~99) :");
 				System.out.println("");
 				stdIn = sc.next();
-				int num = Integer.parseInt(stdIn);				
+				int num = Integer.parseInt(stdIn);
 				count++;
 				// 10회 입력시 게임 실패
 				if ( count == 10) {
@@ -38,7 +36,7 @@ public static void main(String[] args) {
 				if ( num > randnum ) {
 					System.out.println("Down");
 					continue;
-				//입력 숫자가 낮을 시 up	
+				//입력 숫자가 낮을 시 up
 				} else if ( num < randnum) {
 					System.out.println("Up");
 					continue;
@@ -50,16 +48,16 @@ public static void main(String[] args) {
 					//yes or no 만 입력 받기.
 					while(true) {
 						if ( !(stdIn.equals("yes") ||stdIn.equals("no") ) ) {
-						System.out.println("yes or no 만입력 가능합니다. 다시입력하세요 :");	
+						System.out.println("yes or no 만입력 가능합니다. 다시입력하세요 :");
 						stdIn = sc.next();
 						}
 						if ( stdIn.equals("yes")) {
 							break;
-						} else if(stdIn.equals("no")) {	
+						} else if(stdIn.equals("no")) {
 							System.out.println("게임이 종료 되었습니다.");
 							sc.close();
 							return;
-						}							
+						}
 					}
 				}
 				break;
@@ -69,16 +67,12 @@ public static void main(String[] args) {
 			System.out.println("숫자만 입력해주세요.");
 			continue;
 		}
-	}		
+	}
 
-}	
+}
 ```
 
-
-
 ## Lotto Game
-
-
 
 ```java
 public static void main(String[] args) {
@@ -87,12 +81,12 @@ public static void main(String[] args) {
 	// 서로다른 숫자를 입력하고 번호확인!
 	Scanner sc = new Scanner(System.in);
 	Random r = new Random();
-	
+
 	// 1. 6자리 배열 만들기.
 	int ar [] = new int [6];
 	int user [] = new int [6];
-	
-	// 2. 로또 번호 생성.(1~45) 
+
+	// 2. 로또 번호 생성.(1~45)
 	for (int i = 0; i < ar.length; i++) {
 		ar [i] = r.nextInt(45)+1;
 		// 중복 수 제거.
@@ -100,11 +94,11 @@ public static void main(String[] args) {
 			if (ar[i] == ar[j] ) {
 				i--;
 			}
-		}		
+		}
 	}
 	//3. 번호 입력.
 
-	for (int i = 0; i < ar.length; i++) {		
+	for (int i = 0; i < ar.length; i++) {
 		// 예외상황 방지.
 		try {
 			System.out.println("로또 번호를 입력하세요." + (i+1) + "번:" );
@@ -130,14 +124,14 @@ public static void main(String[] args) {
 			i--;
 			continue;
 		}
-	}		
+	}
 	//4.같은 번호인지 비교하기.
 	int count = 0;
 	for (int i = 0; i < ar.length; i++) {
 		if(ar[i] == user [i]) {
 			count++;
 		}
-	}		
+	}
 	//5. 몇 등 \인지 확인하기.
 	System.out.println("당신이 입력한 로또 번호:" + Arrays.toString(user));
 	System.out.println(count);
@@ -152,9 +146,9 @@ public static void main(String[] args) {
 	}
 	System.out.println("아쉽습니다... 다음에 도전하세요.");
 	System.out.println("로또 최종 번호:" + Arrays.toString(ar));
-	
+
 	sc.close();
-			
+
 }
 ```
 
