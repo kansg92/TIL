@@ -26,3 +26,5 @@
 - [day06\_\_Java 제어문](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day06__%20Control%20Statement.md)
 - [day07\_\_Java 참조타입](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day07__Java-reference-type.md)
 - [day08\_\_Java 숫자 맞추기 & 로또 게임 만들기.](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day08__Java-workshop.md)
+- [day09\_\_Java-OOP1.](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day08__Java-OOP1.md)
+- [day10\_\_Java-OOP2.](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day08__Java-oop2.md)
