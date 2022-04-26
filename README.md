@@ -30,6 +30,6 @@
 - [day10\_\_Java-OOP2.](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day10__java-oop2.md)
 - [day11\_\_Java-OOP3.](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day11__java-oop3.md)
 - [day12\_\_Java-인터페이스.](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day12__Java-Interface.md)
-- [day13\_\_Java-예외처리.](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day13__Java- Exception.md)
-- [day14\_\_Java-API.](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day14__Java API.md)
+- [day13\_\_Java-예외처리.](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day13__Java-Exception.md)
+- [day14\_\_Java-API.](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day14__JavaAPI.md)
 - [day15\_\_Java-멀티스레드 & SQL.](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day15__Java-MultiThread.md)
