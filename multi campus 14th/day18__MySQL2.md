@@ -1,4 +1,4 @@
-# day18__MySQL2
+# 📢day18__MySQL2
 
 ### SELECT2
 
