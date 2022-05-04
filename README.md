@@ -16,6 +16,12 @@
 
 ## 분류
 
+### GIT
+
+- [git 명령어 모음](https://github.com/kansg92/TIL/blob/master/GIT/gitcommand.md)
+
+---
+
 ### 멀티캠퍼스 AI플랫폼을 활용한 웹서비스 개발
 
 - [day01\_\_Java 기초](https://github.com/kansg92/TIL/blob/master/multi%20campus%2014th/day01__Java.md)

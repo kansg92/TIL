@@ -1,4 +1,4 @@
-# 📢day20__MySQL
+# 📢day20__MySQL make DDL&DML
 
 #### 📍CMD MYSQL명령
 
