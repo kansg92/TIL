@@ -68,3 +68,7 @@
 - [day25\_\_Java Web HTML & CSS](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day25__CSS.md)
   - [소스코드 CSS 기초](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day03)
   - [소스코드 워크샵](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day03ws)
+- [day26\_\_thymleaf, boottrap 활용하기](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day26_boottrap.md)
+  - [반응형웹 만들어보기 기초!](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day04)
+  - [thymleaf 활용하여 페이지 만들기.](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day045)
+  - [boottrat 활용해서 웹페이지 만들기](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day047)
