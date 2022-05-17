@@ -76,3 +76,9 @@
   - [반응형웹 만들어보기 기초!](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day04)
   - [thymleaf 활용하여 페이지 만들기.](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day045)
   - [boottrat 활용해서 웹페이지 만들기](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day047)
+
+- [day27 자바스크립트기초](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day27__Javascript.md)
+  - [소스코드 - 자바스크립트연습, 계산기 만들기](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day05)
+
+- [day28__ jQuery](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day28__JQuery.md)
+  - [소스코드 - jQuery 기초 연습, 회원가입,로그인 페이지 만들기.](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day05)
