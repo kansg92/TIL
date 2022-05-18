@@ -82,3 +82,6 @@
 
 - [day28__ jQuery](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day28__JQuery.md)
   - [소스코드 - jQuery 기초 연습, 회원가입,로그인 페이지 만들기.](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day05)
+
+- [day29__ jQuery 이벤트](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day29__JQuery-event.md)
+  - [소스코드 - jQuery (jq5~jq15) 이벤트](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day05) 만들기
