@@ -86,5 +86,6 @@
 - [day29__ jQuery 이벤트](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day29__jQuery-event.md)
   - [소스코드 - jQuery (jq5~jq15) 이벤트 만들기](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day05) 
 
-- [day29__ jQuery 이벤트](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day29__day30__ajax.md)
+- [day30__ Ajax](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day30__ajax.md)
   - [소스코드 - AJAX (aj1~aj4) 기초 및 회원 가입폼](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day05) 
+
