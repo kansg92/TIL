@@ -76,16 +76,14 @@
   - [반응형웹 만들어보기 기초!](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day04)
   - [thymleaf 활용하여 페이지 만들기.](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day045)
   - [boottrat 활용해서 웹페이지 만들기](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day047)
-
 - [day27 자바스크립트기초](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day27__Javascript.md)
   - [소스코드 - 자바스크립트연습, 계산기 만들기](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day05)
-
 - [day28__ jQuery](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day28__JQuery.md)
   - [소스코드 - jQuery 기초 연습, 회원가입,로그인 페이지 만들기.](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day05)
-
 - [day29__ jQuery 이벤트](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day29__jQuery-event.md)
   - [소스코드 - jQuery (jq5~jq15) 이벤트 만들기](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day05) 
-
 - [day30__ Ajax](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day30__ajax.md)
   - [소스코드 - AJAX (aj1~aj4) 기초 및 회원 가입폼](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day05) 
+- [day31__ 개인 프로젝트](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day31__project.md)
+  - [소스코드 - Daily Report 제작중](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day06) 
 
