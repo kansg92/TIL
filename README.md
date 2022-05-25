@@ -85,5 +85,7 @@
 - [day30__ Ajax](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day30__ajax.md)
   - [소스코드 - AJAX (aj1~aj4) 기초 및 회원 가입폼](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day05) 
 - [day31__ 개인 프로젝트](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day31__project.md)
-  - [소스코드 - Daily Report 제작중](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day06) 
+  - [소스코드 - Daily Report (제작중)](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day06) 
+- [day32__ API](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day32__openapi.md)
+  - [소스코드 -openAPI 활용(aj06~aj12)](https://github.com/kansg92/multicampus-webservice14th/tree/master/web/day05) 
 
