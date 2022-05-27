@@ -48,3 +48,59 @@
    - 기존의 일반적인 Java 코드를 이용해서 프로그래밍이 가능하다.
    - 기존의 프레임워크의 방식에선 미리 설계되어있는 인터페이스나 클래스를 상속받아 무거운 객체들을 만들어야만 했는데, 그럴 필요가 없어 일반적인 Java코드로만으로 객체를 구성할 수 있게 된다.
    - 따라서 더 유연한 프로그래밍이 가능해지며 가볍고 생산성이 높아진다.
+
+
+
+## Spring , Spring Boot 차이
+
+### Spring MVC
+
+MVC란 Modle, View, Contrller 를 분리한 디자인 패턴을 말한다.
+
+- Model
+  - 애플리케이션의 상태(data)를 나타낸다.
+  - 일반적으로 POJO로 구성된다
+  - **JAVA BEANS**
+- View
+  - 디스플레이 데이터 또는 프리젠테이션
+  - Model data의 랜더링을 담당하며, HTML output을 생성한다
+  - **JSP, Thymleaf, Freemaker 등**
+
+- Controller
+  - View와 Model 사이의 인터페이스 역할
+  - Model/View에 대한 사용자 입력 및 요청을 수신하여 그에 따라 적절한 결과를 Model에담아 View에 전달한다.
+  - 즉, Model Object와 Model을 화면에 출력할 View Name을 반환한다.
+  - Controller --> Service --> Dao --> DB
+  - **Servlet**
+
+위 3가지를 개발자가 직접 설정해야하며 라이브러리를 가져오고  그에 따른 설정들이 무수하게 따른다. 즉 환경설정에 개발자는 많은 시간을 투자해야하며 각각의 라이브러이에대해 버전관리가 필요 할 수 도 있다.
+
+### SpringBoot
+
+스프링 부트의 공식 사이트에서는 이렇게 나와있다.
+
+```
+Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
+```
+
+"단지 실행만 해라!"
+
+스프링부트는 이렇듯 스프링의 단점인 수 많은 설정들을 안하고 실행만 하게끔 도와준다.
+
+
+
+
+
+###### 참고사이트
+
+https://msyu1207.tistory.com/entry/Spring-VS-Spring-Boot-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90
+
+https://gmlwjd9405.github.io/2018/12/20/spring-mvc-framework.html
+
+https://jerryjerryjerry.tistory.com/62
+
+https://12bme.tistory.com/157
+
+https://bagbokman.tistory.com/7
+
+https://anaog.tistory.com/1
