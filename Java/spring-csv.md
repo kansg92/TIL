@@ -4,7 +4,7 @@
 
 ## Web Server 와 database가 소통하는 방식
 
-![다운로드](spring service,dao,controller.assets/다운로드.png)
+![다운로드](spring-csv.assets/다운로드.png)
 
 사진참조 - https://dalpaeng00.tistory.com/83
 
