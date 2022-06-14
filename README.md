@@ -9,29 +9,35 @@
 
 - 폴더와 파일명은 영문으로 작성한다.
 - 해당 문서를 다시 보았을 때 , 추가적인 검색의 비용이 들지 않도록 자세히 기록한다.
-- reference를 명시하고, 원작자가 참고를 허용하는 자료만 사용한다.
 - 짧고 간결하며 핵심적인 문장을 사용한다. 필요한 부가적인 설명이 있으면 외부링크를 사용하자.
 
 ---
 
 ## 분류
 
-### JAVA
-
-- 기초?
-  - [Parameter 와 Argument]()](https://github.com/kansg92/TIL/blob/master/Java/paramandargument.md)
-
-- Spring
-  - [Spring이란??](https://github.com/kansg92/TIL/blob/master/Java/spring.md)
-  - [Spring에서 Controller,Service,Dao 개념](https://github.com/kansg92/TIL/blob/master/Java/spring-csv.md)
-  
-  
-
 ### GIT
 
 - [git 명령어 모음](https://github.com/kansg92/TIL/blob/master/GIT/gitcommand.md)
 
 
+
+### MYSQL
+
+- [MYSQL DDL 문법 정리](SQL/SQL-DDL.md)
+
+
+
+### JAVA
+
+- 기초?
+  - [Parameter 와 Argument](https://github.com/kansg92/TIL/blob/master/Java/paramandargument.md)
+  - [foreach 반복문](/Java/foreach.md)
+  
+- Spring
+  - [Spring이란??](https://github.com/kansg92/TIL/blob/master/Java/spring.md)
+  - [Spring에서 Controller,Service,Dao 개념](https://github.com/kansg92/TIL/blob/master/Java/spring-csv.md)
+  
+  
 
 ### HTML/CSS
 
