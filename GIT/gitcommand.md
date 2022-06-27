@@ -136,7 +136,7 @@
 - $ git restore --souce <commit hash> <파일 명> : 파일 특정 commit으로 복구하기.
 - $ gir restore --staged <파일명> : Staging Area에 올라간 파일 Unstaging시키기.
 
-
+​	
 
 #### **$ git switch <브랜치명>**
 
