@@ -125,4 +125,6 @@
 - [day43__ 차트 만들기](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day43__chart.md)
 - [day46__ THYMLEAF 기본 문법 정리](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day46__thymeleaf.md)
 - [day44~day54 세미 프로젝트 개발](https://github.com/kansg92/multi-sub)
+- [day55 Cloud서버 리눅스 환경설정 with centOS](https://github.com/kansg92/TIL/blob/master/multi-campus-14th/day45__centos.md)
 
+​	
