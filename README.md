@@ -34,9 +34,10 @@
   - [foreach 반복문](/Java/foreach.md)
   
 - Spring
-  - [Spring이란??](https://github.com/kansg92/TIL/blob/master/Java/spring.md)
-  - [Spring에서 Controller,Service,Dao 개념](https://github.com/kansg92/TIL/blob/master/Java/spring-csv.md)
-  - [Spring에서 Maven과 Gradle](https://github.com/kansg92/TIL/blob/master/Java/maven-gradle.md)
+  - [Spring이란??](https://github.com/kansg92/TIL/blob/master/Java/Spring/spring.md)
+  - [Spring에서 Controller,Service,Dao 개념](https://github.com/kansg92/TIL/blob/master/JavaSpring/spring-csv.md)
+  - [Spring에서 Maven과 Gradle](https://github.com/kansg92/TIL/blob/master/Java/Spring/maven-gradle.md)
+  - [Spring에서 스케쥴러 생성](https://github.com/kansg92/TIL/blob/master/JavaSpring/springboot-scheduler.md)
   
   
 
