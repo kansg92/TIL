@@ -1,4 +1,4 @@
-# 📢day56__centOS 명령어.
+# 📢day55__centOS 명령어.
 
 ## **CentOS 명령어 정리**
 
@@ -291,5 +291,31 @@ mysql> CREATE DATABASE DB이름 default character set utf8;
 mysql> GRANT ALL PRIVILEGES ON DB이름.* to '아이디'@'%'; # 해당 DB에 대한 권한 부여
 mysql> flush privileges; # 새로고침 똭!
 mysql> select host,user from user; # 다시 확인
+```
+
+
+
+
+
+## MYSQL 삭제
+
+
+
+```
+mysql 삭제
+
+1. mysql stop
+systemctl stop mysqld
+
+2. version 확인
+yum list installed | grep mysql
+
+3. 삭제
+yum remove -y mysql-community-*
+
+4. dir 삭제
+cd /var/lib
+mysql 관련 dir 삭제
+rm -rf mysql
 ```
 
