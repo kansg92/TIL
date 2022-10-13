@@ -31,8 +31,8 @@
   
 - Spring
   - [Spring이란??](https://github.com/kansg92/TIL/blob/master/Java/Spring/spring.md)
-  - [Spring에서 Controller,Service,Dao 개념](https://github.com/kansg92/TIL/blob/master/JavaSpring/spring-csv.md)
-  - [Spring에서 Maven과 Gradle](https://github.com/kansg92/TIL/blob/master/Java/Spring/maven-gradle.md)
+  - [Spring에서 Controller,Service,Dao 개념](Java/Spring/spring-csv.md)
+  - [Spring에서 Maven과 Gradle](Java/Spring/maven-gradle.md)
   - [Spring에서 스케쥴러 생성](/Java/Spring/springboot-scheduler.md)
   
 
