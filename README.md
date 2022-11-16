@@ -48,6 +48,13 @@
 - RESTAPI
   - [restapi개념정리](/Network/RESTAPI.md)
 
+
+
+###  기타
+
+- nexacro
+  - [nexacro 명령어]((/nexacro/nexacro-command.md)
+
 ---
 
 ### 멀티캠퍼스 AI플랫폼을 활용한 웹서비스 개발
