@@ -53,7 +53,7 @@
 ###  기타
 
 - nexacro
-  - [nexacro 명령어]((/nexacro/nexacro-command.md)
+  - [nexacro 명령어](/nexacro/nexacro-command.md)
 
 ---
 
