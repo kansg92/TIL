@@ -278,7 +278,7 @@ sudo certbot --nginx -d example.com -d www.example.com
 
 #### 5. Cerbot 자동 갱신 확인
 
-- Let's Encrypt의 인증서는 90일동안만 유효하기 때문에 자종 갱신하도록 하는게 좋다.
+- Let's Encrypt의 인증서는 90일동안만 유효하기 때문에 자동 갱신하도록 하는게 좋다.
 
 ```
 sudo systemctl status snap.certbot.renew.service
