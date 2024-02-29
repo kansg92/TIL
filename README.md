@@ -47,7 +47,8 @@
 
 - RESTAPI
   - [restapi개념정리](/Network/RESTAPI.md)
-
+- server
+  - [리눅스환경 자바 api서버 배포하기](/Network/nginx/nginx_ spring_deploy.md)
 
 
 ###  기타
