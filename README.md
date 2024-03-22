@@ -28,18 +28,28 @@
 - 기초?
   - [Parameter 와 Argument](https://github.com/kansg92/TIL/blob/master/Java/paramandargument.md)
   - [foreach 반복문](/Java/foreach.md)
-  
 - Spring
   - [Spring이란??](https://github.com/kansg92/TIL/blob/master/Java/Spring/spring.md)
   - [Spring에서 Controller,Service,Dao 개념](Java/Spring/spring-csv.md)
   - [Spring에서 Maven과 Gradle](Java/Spring/maven-gradle.md)
   - [Spring에서 스케쥴러 생성](/Java/Spring/springboot-scheduler.md)
-  
+
+
+
+
+### Python
+
+- 기본
+  - [파이썬 가상환경](/Python/python_venv.md)
+  - [Requirement](/Python/python_requirement.md)
+
+
 
 ### HTML/CSS
 
 - CSS
   - [CSS 방법론 BEM방식](HTMLCSS/css-BEM.md)
+  - [TailwindCSS 셋팅](HTMLCSS/tailwindCSS.md)
 
 
 
@@ -49,6 +59,9 @@
   - [restapi개념정리](/Network/RESTAPI.md)
 - server
   - [리눅스환경 자바 api서버 배포하기](/Network/nginx/nginx_ spring_deploy.md)
+- aws
+  - [aws-ses AWS 메일 보내기](/Network/Server/aws/aws_ses.md)
+
 
 
 ###  기타
