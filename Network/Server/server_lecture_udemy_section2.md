@@ -33,7 +33,7 @@
   - ssh : 22
   - ftp : 21
   - sftp : 22
-  - musql : 3306 
+  - mysql : 3306 
 
 
 
