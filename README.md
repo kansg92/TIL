@@ -42,6 +42,7 @@
 - 기본
   - [파이썬 가상환경](/Python/python_venv.md)
   - [Requirement](/Python/python_requirement.md)
+  - [윈도우환경에서 python-ldap 라이브러리 설치](/Python/python_ldap.md)
 
 
 
@@ -50,6 +51,17 @@
 - CSS
   - [CSS 방법론 BEM방식](HTMLCSS/css-BEM.md)
   - [TailwindCSS 셋팅](HTMLCSS/tailwindCSS.md)
+
+
+
+### Frontend
+
+- react
+- vue
+  - [vue 프로젝트 intit](Frontend/Vue/mkdirProject.md)
+  - [vue ref와 reactive](Frontend/Vue/refVSreactive.md)
+
+
 
 
 
@@ -71,6 +83,10 @@
 
 - nexacro
   - [nexacro 명령어](/nexacro/nexacro-command.md)
+- GIS
+  - [GeoJSON](GIS/GeoJSON.md)
+  - [폴리곤](GIS/Polygon.md)
+
 
 ---
 
