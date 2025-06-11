@@ -65,12 +65,12 @@
 
 
 
-### Network
+### Sever - Network
 
 - RESTAPI
   - [restapi개념정리](/Network/RESTAPI.md)
 - server
-  - [리눅스환경 자바 api서버 배포하기](/Network/nginx/nginx_ spring_deploy.md)
+  - [리눅스환경 자바 api서버 배포하기](Network/nginx/nginx_ spring_deploy.md)
 - aws
   - [aws-ses AWS 메일 보내기](/Network/Server/aws/aws_ses.md)
 - LDAP
