@@ -22,6 +22,8 @@
 ### MYSQL
 
 - [MYSQL DDL 문법 정리](SQL/SQL-DDL.md)
+- [MYSQL UPDATE](SQL/SQL_update.md)
+- [SQL CTEs](SQL/SQL-CTE.md)
 
 ### JAVA
 
