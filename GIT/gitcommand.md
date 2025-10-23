@@ -160,6 +160,23 @@
 
 
 
+#### $ git stash
+
+- 커밋을 안한 수정된 내용을  다른 브랜치로 이동하기 전에 임시로 저장하는 기능
+
+    
+
+#### $ git stash list
+
+- stash된 리스트 불러오기
+
+
+
+#### $ git stash pop [popid]
+
+- id 미 입력시 가장 최근 stash된 파일을 가져옴
+- 특정 ID stash된 파일을 가져옴
+
 
 
 
