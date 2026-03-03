@@ -7,11 +7,11 @@
 5. Outline  
 6. Docmost
 
-### Wiki.js
+
 
 | 이름          | 라이선스                         | LDAP 호환     | 사용성 | 파일 업로드       | 이미지 업로드 | Slack 연동          | DB / API Export 연동  | DBMS                       |
 | ------------- | -------------------------------- | ------------- | ------ | ----------------- | ------------- | ------------------- | --------------------- | -------------------------- |
-| **Wiki.js**   | AGPLv3 (무료)                    | 공식 지원     | ⭐⭐⭐⭐☆  | ✅                 | ✅             | ✅ 공식 Webhook      | ✅ REST / GraphQL / DB | PostgreSQL, MySQL, MariaDB |
+| **Wiki.js**   | AGPLv3 (무료)                    | 공식 지원     | ☆      | ✅                 | ✅             | ✅ 공식 Webhook      | ✅ REST / GraphQL / DB | PostgreSQL, MySQL, MariaDB |
 | **BookStack** | MIT (무료)                       | 공식 지원     | ⭐⭐⭐⭐⭐  | ✅                 | ✅             | ⚠️ Webhook 직접 구성 | ✅ REST API / DB       | MySQL, MariaDB             |
 | **XWiki**     | LGPL (무료)                      | 지원          | ⭐⭐⭐    | ✅                 | ✅             | ⚠️ 애드온/스크립트   | ✅ REST / 구조화 API   | MySQL, PostgreSQL, Oracle  |
 | **DokuWiki**  | GPLv2 (무료)                     | 플러그인      | ⭐⭐⭐    | ✅                 | ✅             | ❌ (커스텀 필요)     | ⚠️ 파일기반 / 제한적   | ❌ DB 없음 (파일 기반)      |

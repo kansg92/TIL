@@ -11,7 +11,13 @@
 ### 다른테이블 select해서 업데이트
 
 ```sql
-
+UPDATE `TABLE_A` A
+SET (A.`idx`, A.`column`, ...) = (
+	SELECT B.`idx`, B.`COLUMN`, ...
+    FROM `TABLE_B` B
+    WHERE 1 = 1
+	) 
+WHERE condition
 ```
 
 
