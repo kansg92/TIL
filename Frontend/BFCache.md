@@ -50,7 +50,36 @@ indexedDB 트랜잭션을 다룰 때 동작은 조금 더 까다로워지는 경
 
 
 
+## 웹페이지를 BFCache와 호환되도록 만들기
 
+이제 BFCache가 사용자가 다시 웹사이트로 더 빠르고 원활하게 돌아올 수 있도록 한다는 점은 모두 이해하셨을겁니다.
+
+하지만 개발자의 입장에서는 BFCache가 종종 좌절의 원인이 될 수 있으므로 몇 가지 고려 사항에 유의해야 합니다. BFCache에서 제공되는 페이지의 수명 주기 이벤트를 알아두는 것이 중요합니다.
+
+페이지 **load** 이벤트는 BFCache에서 페이지가 로드될 때 발생하지 않습니다. 따라서 **pageshow** 이벤트를 수신해야 하며, `event.persisted` 속성을 확인하여 페이지가 BFCache에서 복원되었는지 확인할 수 있습니다. 이는 데이터가 오래되었는지 감지하는 데 유용할 수 있으며, 예를 들어 API 호출을 수행하여 업데이트할 수 있습니다.
+
+```javascript
+window.addEventListener('pageshow', function(event) {
+  if (event.persisted) {
+    // bfcache에서 페이지가 복원됨
+  }
+});
+```
+
+unload 이벤트 수신과 같은 일부 작업은 페이지가 BFCache에 들어가지 못하게 하므로 대신 pagehide 이벤트를 수신하고 unload 이벤트 리스너를 항상 추가하지 않도록 하세요. unload 이벤트는 이전부터 사용되어 왔으며 현재 레거시 API로 간주됩니다.
+
+> 이 API는 레거시 API로 간주되므로 항상 **unload** 이벤트를 수신하지 마십시오.
+
+예를 들어 레딧에서와 같이 웹서버가 **Cache-control: no-store** 헤더를 전송하면 브라우저는 BFCache를 건너뛰도록 지시받습니다. 기술적으로 이 헤더는 HTTP 캐시에만 사용되어야 하고 BFCache는 HTTP 캐시가 아니므로 이 동작은 변경될 것입니다.
+
+> BFCache에 대해 더 자세히 알고 싶으시다면 다음 글을 읽어보세요!
+> [Back and forward cache | Articles | web.dev](https://web.dev/articles/bfcache?ref=sabatino.dev)
+
+## 테스트
+
+우수한 사용자 경험을 보장하려면 BFCache를 자주 테스트하는 것이 중요합니다.
+
+크롬 개발도구를 열고 애플리케이션 탭으로 이동한 다음 Back/forward cache를 클릭하면 BFCache를 쉽게 테스트할 수 있습니다. 이 페이지에서 커다란 'Test back/forward cache 버튼'을 누르면 크롬이 자동으로 웹페이지로 이동했다가 다시 돌아와 페이지가 캐시에 진입했는지 여부를 표시합니다.
 
 
 
